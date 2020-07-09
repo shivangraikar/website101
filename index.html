@@ -1,0 +1,199 @@
+﻿<! DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welcome!</title>
+    <link rel="shortcut icon" type="image/png" href="me.png">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="layout.css">
+
+</head>
+<style type="text/css" data-typed-js-css="true">
+        .typed-cursor{
+          opacity: 1;
+        }
+        .typed-cursor.typed-cursor--blink{
+          animation: typedjsBlink 0.7s infinite;
+          -webkit-animation: typedjsBlink 0.7s infinite;
+                  animation: typedjsBlink 0.7s infinite;
+        }
+        @keyframes typedjsBlink{
+          50% { opacity: 0.0; }
+        }
+        @-webkit-keyframes typedjsBlink{
+          0% { opacity: 1; }
+          50% { opacity: 0.0; }
+          100% { opacity: 1; }
+        }
+</style>
+
+<body>
+    <nav class="navbar d-flex navabar-light bg-dark fixed-top" id="navbar">
+
+        <a class="navbar-brand" href="#sec1" >Portfolio <img src="me.png" alt="my logo" height="30" width="30 "></a>
+        <ul class="nav">
+            <li class="nav-item "><a href="#sec2" class="nav-link">About Me</a></li>
+            <li class="nav-item "><a href="#sec3" class="nav-link">Education</a></li>
+            <li class="nav-item"><a href="#sec4" class="nav-link">Projects</a></li>
+            <li class="nav-item"><a href="#sec5" class="nav-link">Contact</a></li>
+        </ul>
+
+    </nav>
+
+    <div class="section" id="sec1">
+      <div class="container" id="intro-1">
+      <div class="col-xs-12">
+        <div class="jumbotron" id="intro">
+	    <h1 style="font-weight: bold; font-family:Montserrat; font-size:5vw">SHIVANG RAIKAR</h1>	
+            <h2 style="font-weight: bold; font-family:Montserrat; font-size:3vw" >I am <span id="typed" ></span><span class="typed-cursor"></span></h2>
+            <h3>
+                <p style="font-size:2vw">Scroll down to know more</p>
+            </h3>
+          </div>
+         </div>
+      </div> 
+    </div>
+
+    <div class="bg-dark text-white" id="sec2">
+        <div class="container" id="sec2-div1">
+            <h1 class="text-center heading"style="font-family:Montserrat">About Me</h1>
+            <div class="jumbotron" id="sec2-div2">
+                
+                <p>My name is <strong> SHIVANG RAIKAR </strong>. Welcome to my Portfolio.  </p>
+                <p>I'm currently pursuing a Bachelor's degree in Computer Science at Thadomal Shahani Engineering College. </p>
+                <p>My hobbies include nothing specific but always trying to improve myself. </p>
+                <p>Click the Button to view my Resume</p>
+                <a class="btn-primary btn" href="Shivangresume.pdf" target="_blank" download="">Resume</a>
+                <p>Click the Image to view my GitHub profile</p>   
+                <span id="git-link"><a class="btn btn-link" href="https://github.com/shivangraikar" target="_blank"><img src="github.png" alt="github logo" height="50" width="100 ">    
+                    </a>
+                </span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="section" id="sec3">
+        <div class="container" id="sec3-div1">
+            <h1 class="text-center heading" style="font-family:Montserrat">Education</h1>
+            <div class="row">
+                
+                  
+                <div class="jumbotron" id="timeline">
+                <ul>
+        	<li>
+        	<div class="content">
+               	    <h3>Secondary School Certificate</h3>
+                    <h3>(S.S.C)</h3>
+                    <h4>Primary education from Blossoms S.T English High School, Mumbai</h4>
+                    <p>Securing 92.40%</p>
+                </div>
+                <div class="time">
+		    <h4>May 2015</h4>
+                </div>
+                </li>
+
+	        <li>
+        	<div class="content">
+               	    <h3>Maharahtra State Board of Technical Education</h3>
+                    <h3>(M.S.B.T.E)</h3>
+            	    <h4>Diploma in Computer Technology from Babasaheb Gawde Institute of Technology, Mumbai</h4>
+                    <p>Securing 89.65%</p>
+                </div>
+                <div class="time">
+		    <h4>2015-2018</h4>
+                </div>
+                </li>
+                   
+
+	        <li>
+        	<div class="content">
+               	    <h3>Mumbai University</h3>
+                    <h4>Bachelor of Engineering from Thadomal Shahani Engineering College, Mumbai</h4>
+                    <p>GPA:8.15</p>
+                </div>
+                <div class="time">
+		    <h4>2018-Current</h4>
+                </div>
+                </li>	
+              </ul>   
+             </div>
+          </div>
+      </div>
+   </div>
+
+
+    <div class="bg-dark text-white" id="sec4">
+        <div class="container" id="sec4-div1">
+            <h1 class="text-center heading" style="font-family:Montserrat">Projects</h1>
+            <div class="row">
+                <div class="col-md-6 col-sm-12 col-lg-6">
+                    <div class="jumbotron">
+                        <h4 class="text-center" style="font-family:Montserrat"><b>Turtle race</b></h4>
+                        <p>Turtle feature of Python used as a drawing board </p>
+                        <div class="d-flex justify-content-around"><a href="https://github.com/shivangraikar/Turtle-race-using-Turtle" class="btn btn-primary " target="_blank">Source</a></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-lg-6">
+                    <div class="jumbotron">
+                        <h4 class="text-center" style="font-family:Montserrat"><b>My website</b></h4>
+                        <p> Personal Portfolio using javascript html and css</p>
+                        <div class="d-flex justify-content-around"><a href="https://github.com/shivangraikar/Website" class="btn btn-primary " target="_blank">Source</a></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-lg-6">
+                    <div class="jumbotron">
+                        <h4 class="text-center" style="font-family:Montserrat"><b>Sentiment Analysis</b></h4>
+                        <p>Python libraries used to sort tweets from Twitter</p>
+                        <div class="d-flex justify-content-around"><a href="https://github.com/shivangraikar/Sentiment-Analysis-Twitter" class="btn btn-primary " target="_blank">Source</a></div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-12 col-lg-6">
+                    <div class="jumbotron">
+                        <h4 class="text-center" style="font-family:Montserrat"><b>Shapes inside shapes</b></h4>
+                        <p>Mini game built using C graphics library</p>
+                        <div class="d-flex justify-content-around"><a href="https://github.com/shivangraikar/computer-graphics" class="btn btn-primary " target="_blank">Source</a></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="bg-light" id="sec5">
+            <div class="container ">
+                <div class="col-xs-12" id="sec5-div1">
+		    <h1 class="text-center heading2" id="sec4-h1" style="font-family:Montserrat">Contact</h1>
+                    <div class="jumbotron" id="sec5-div2">
+                    <br>
+                    <h2 class="text-center " style="font-family:Montserrat; color:black">Mobile: <a href="tel:+91-976888309">+91-9768988309 </a>
+                    </h2>
+                    <br>
+                    <h2 class="text-center " style="font-family:Montserrat; color:black">Gmail: <a href="mailto:shivangraikar@gmail.com">shivangraikar@gmail.com</a>
+                    </h2>
+                    <br>
+                    <h2 class="text-center " style="font-family:Montserrat; color:black">Linkedin: <a href="https://www.linkedin.com/feed/" target="_blank" >Linkedin profile</a>
+                    </h2>
+                </div>
+
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="main.js"></script>
+
+
+</div>
+</body>
+</html>
+
+    
+
+
+
